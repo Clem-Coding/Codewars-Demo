@@ -10,3 +10,7 @@
 // "8aaaaa dddd r     " -> "8aaaaaddddr"
 
 // My Solution :
+
+function noSpace(x) {
+  return x.replace(/\s/g, "");
+}
