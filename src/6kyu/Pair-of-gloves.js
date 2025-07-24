@@ -35,3 +35,5 @@ function numberOfPairs(gloves) {
 
   return totalPairs;
 }
+
+export default numberOfPairs;

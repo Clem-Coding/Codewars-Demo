@@ -19,3 +19,5 @@ function toCamelCase(str) {
 
 //// We could also use (_, c) instead of (match, char) to indicate that 'match' is ignored.
 // The underscore (_) is a common convention in JavaScript to signal that the parameter is not important and can be ignored.
+
+export default toCamelCase;

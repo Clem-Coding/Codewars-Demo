@@ -30,3 +30,5 @@ function high(x) {
   });
   return maxWord.word;
 }
+
+export default high;

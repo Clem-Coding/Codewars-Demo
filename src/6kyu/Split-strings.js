@@ -22,3 +22,5 @@ function solution(str) {
 
   return str.match(/.{2}/g);
 }
+
+export default solution;
