@@ -1,20 +1,18 @@
 export default {
-  preset: "ts-jest/presets/default-esm",
+  preset: "ts-jest",
   extensionsToTreatAsEsm: [".ts"],
-  globals: {
-    "ts-jest": {
-      useESM: true,
-    },
-  },
   transform: {
     "^.+\\.tsx?$": "ts-jest",
     "^.+\\.jsx?$": "babel-jest",
   },
   testMatch: [
+    "<rootDir>/tests/5kyu/**/*.test.ts",
     "<rootDir>/tests/5kyu/**/*.test.js",
+    "<rootDir>/tests/6kyu/**/*.test.ts",
     "<rootDir>/tests/6kyu/**/*.test.js",
     "<rootDir>/tests/7kyu/**/*.test.ts",
     "<rootDir>/tests/7kyu/**/*.test.js",
+    "<rootDir>/tests/8kyu/**/*.test.ts",
     "<rootDir>/tests/8kyu/**/*.test.js",
   ],
   moduleNameMapper: {

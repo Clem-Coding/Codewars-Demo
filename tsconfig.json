@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@5kyu/*": ["src/5kyu/*"],
+      "@6kyu/*": ["src/6kyu/*"],
+      "@7kyu/*": ["src/7kyu/*"]
+    }
+  }
+}
